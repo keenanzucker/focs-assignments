@@ -1,11 +1,11 @@
 #lang racket
 
-;;; Student Name: Frankly Olin [change to your name]
+;;; Student Name: Keenan Zucker
 ;;;
 ;;; Check one:
 ;;; [ ] I completed this assignment without assistance or external resources.
-;;; [ ] I completed this assignment with assistance from ___
-;;;     and/or using these external resources: ___
+;;; [x] I completed this assignment with assistance from ___
+;;;     and/or using these external resources: http://koreyhinton.com/blog/lisp/racket_cheat_sheet.html
 
 ;;     NOTE:  You need not worry about error checking in the programs below.
 
