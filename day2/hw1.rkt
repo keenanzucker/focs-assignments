@@ -30,7 +30,7 @@
 ;; 3.  WRITE FACTORIAL:  given n, returns n!
 ;;     Hint:  recursion is your friend
 (define (fact n)
-   (cond [(= n 0) 1] 
+   (cond [(= n 0) 1]
          [else (* n(fact (- n 1)))])
 )
 
