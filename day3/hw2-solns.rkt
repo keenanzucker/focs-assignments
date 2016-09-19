@@ -121,19 +121,19 @@
 ;; Again, this is commented out because it directly overrides definitions above.
 ;; Replace the definition of operator-list above with this one to run the code below.
 
-; (define operator-list
-;   (list (list 'ADD +)
-;         (list 'SUB -)
-;         (list 'MUL *)
-;         (list 'DIV /)
-;         (list 'GT >)
-;         (list 'LT <)
-;         (list 'GE >=)
-;         (list 'LE <=)
-;         (list 'EQ =)
-;         (list 'NEQ (lambda (x y) (not (= x y))))
-;         (list 'ANND (lambda (x y) (and x y))) ;; although these AR built in,
-;         (list 'ORR (lambda (x y) (or x y)))))   ;; they are not simply names.
+(define operator-list
+  (list (list 'ADD +)
+        (list 'SUB -)
+        (list 'MUL *)
+        (list 'DIV /)
+        (list 'GT >)
+        (list 'LT <)
+        (list 'GE >=)
+        (list 'LE <=)
+        (list 'EQ =)
+        (list 'NEQ (lambda (x y) (not (= x y))))
+        (list 'ANND (lambda (x y) (and x y)))
+        (list 'ORR (lambda (x y) (or x y)))))
 ; 
 ;  (calculate-2 '(ANND (GT (ADD 3 4) (MUL 5 6)) (LE (ADD 3 (MUL 4 5)) (SUB 0 (SUB (ADD 3 4) (MUL 5 6)))))) ;; --> #f
 
@@ -213,7 +213,7 @@
 (define (IPH-TEST iph-expr)
   (second iph-expr))
 
-(define (IPH-THEN iph-expr)
+(define (IPH-THEN iph-expr) 
   (third iph-expr))
 
 (define (IPH-ELSE iph-expr)
