@@ -35,8 +35,11 @@
             (second (assq expr op-list)))
 		  ((eq? (first expr) 'IPH)
 		  		(if (calculate (second expr) op-list) calculate (third expr)) (calculate (fourth expr)))
-		  ((eq? (first expr) 'DEFINE) 
+		  ((eq? (first expr) 'DEFINE)
 		  		(cons (repl (list (second expr) (third  expr))) op-list))
+		  		; (repl (cons (list (second expr) (third expr)) op-list )))
+		  ; ((eq? (first expr) 'LAMBDA)
+		  ; 		(lambda (second expr) (third expr)))   Not sure how to get it to work...
 		  ((list? (first expr)) calculate (first expr) op-list)
 		  ((assq (first expr) op-list)
 		  	((second (assq (first expr) op-list))
