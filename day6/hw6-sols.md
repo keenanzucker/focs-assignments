@@ -38,4 +38,4 @@ Using this format, the two machines, M1 and M2, could both solve an input string
 
 Construct a regular expression that matches *all* and *only* those strings that contain exactly one `1` (and any number of `0`s). For example, `1`, `0010`, `100`; but not `0` or `101`.
 
-/(0*10*)/
+/(0\*10\*)/
