@@ -19,11 +19,9 @@ c. 		`/(1*01*)/`
 
 `/(\((\(\))*\))*/`
 
-
 **c**. Construct a regular expression that accepts strings where the parentheses match, with depth <= 3.
 
 `/(\((\((\(\))*\))*\))*/`
-
 
 ## 3. [optional] Challenge Problems
 
@@ -44,3 +42,4 @@ Construct these. Some you may be able to do by just by thinking. Some may be eas
 - A regular expressions that matches strings with an odd number of 1s OR an even number of 0s.
 
 `/(1(11)*|)((00)*)/`
+
