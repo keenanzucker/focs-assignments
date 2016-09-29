@@ -5,7 +5,7 @@ You may edit your answers into this file, or add a separate file in the same dir
 If you add a separate file, please include the following at the top:
 
 ```
-Student Name: Frankly Olin [change to your name]
+Student Name: Keenan Zucker
 Check one:
 [ ] I completed this assignment without assistance or external resources.
 [ ] I completed this assignment with assistance from ___
@@ -17,6 +17,10 @@ Check one:
 For each of the following languages, decide whether it is regular.  If it is regular, give a regular expression or finite automaton that recognizes the language.  If it is not regular, demonstrate that using the pumping lemma.
 
 a) Strings containing only the symbol a whose length is a power of 2 (*i.e.* length 2^n)
+
+NOT REGULAR
+
+input string is aaaaaaaa (a8), loop two of the middle a's to give aaaaaaaaaa (a10) which is not in the language
 
 [The strings `a`, `aa`, `aaaa`, and `aaaaaaaa` are in this language; the string `aaaaa` is not.]
 
