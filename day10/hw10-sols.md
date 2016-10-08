@@ -3,7 +3,7 @@
 ```
 Student Name: Keenan Zucker
 Check one:
-[ ] I completed this assignment without assistance or external resources.
+[X] I completed this assignment without assistance or external resources.
 [ ] I completed this assignment with assistance from ___
    and/or using these external resources: ___
 ```
@@ -13,8 +13,10 @@ Check one:
 ### 1.
 
 a. Construct the truth table for _a XOR (b XOR a)_.
+
+
 _a_ | _b_ | _a_ XOR _b_ | _a XOR (b XOR a)_
-----|-----|---          |--------------
+----|-----|-----------  |--------------
  F  |  F  | F           | F
  F  |  T  | T           | T
  T  |  F  | T           | F
@@ -23,6 +25,8 @@ _a_ | _b_ | _a_ XOR _b_ | _a XOR (b XOR a)_
 
 
 b. Which function corresponds to the English word "or", as used in "You will eat your meat OR you can't have any pudding" (where _a_ = "You will eat your meat" and _b_ = "you can't have any pudding").
+
+the 'XOR' function
 
 ## II. Questions 2–6 are the same as in-class activities 2-6
 
