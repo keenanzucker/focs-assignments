@@ -46,6 +46,7 @@ Convert G to a PDA.
 
 Convert grammar G from (2) to Chomsky Normal Form.
 
+```
 S -> E
 E -> EB | EC | ED | a
 T -> TD | TC | a
@@ -56,6 +57,7 @@ P -> +
 M -> x
 L -> (
 R -> )
+```
 
 ### 4.
 
