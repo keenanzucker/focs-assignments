@@ -19,7 +19,7 @@ For each of the following pairs of functions, identify a multiplier and a minimu
   D. 869,438    and    923                      [They are not functions, so any n0, k = 942 ]
   E. 2^n    and    3^n                          [n0 = 0; k=1]
   F. 3^n    and    2^n                          [nothing, 3^n will always grow faster]
-  G. log_2 n     and    log_10 n                [nothing, log base 2 will always grow faster]
+  G. log_2 n     and    log_10 n                [n0 = 1; k =4]
   H. log_10 n^2    and     log_2 n              [n0 = 1; k=1]
 ```
 
