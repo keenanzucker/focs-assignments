@@ -17,6 +17,9 @@ class Graph(object):
         # shown for completeness. If this function is called often, this is the wrong data structure.
         return [head for head in self.nodes if node in self.successors(head)]
 
+    def printMe(self):
+        print(self.nodes, self.adjacency_list);
+
     def add_node(self, node):
         raise NotImplementedError()
 
@@ -32,6 +35,7 @@ def bfs(graph, start):
         print(node)
         visited.add(node)
         for tail in graph.successors(node):
+            print('pred: ' , graph.predecessor(node))
             if tail not in visited:
                 remaining_nodes.put(tail)
 
@@ -42,3 +46,4 @@ def bfs(graph, start):
 
 g = Graph(['a', 'b', 'c', 'd', 'e'], [('a', 'b'), ('a', 'c'), ('b', 'd'), ('b', 'e'), ('e', 'a')])
 bfs(g, 'a')
+g.printMe()
