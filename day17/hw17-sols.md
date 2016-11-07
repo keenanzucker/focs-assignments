@@ -67,6 +67,8 @@ The first strategy is a relatively straight-forward implementation of [this algo
 Read about Dijsktra's Algorithm in your favorite algorithm text, or [Wikipedia](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm#Algorithm). Apply it (manually) to the following graph. How does it label the nodes?
 
 ![](dijkstra.svg)
+
+
 ![](dijkstra.JPG)
 
 
