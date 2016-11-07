@@ -40,7 +40,7 @@ a. For each of the following, is Table 1 a model?  Explain briefly why or why no
 4. ∀y. ∃x. loves(x, y) -- YES -- For every y, there exists an x that loves it. This is true since every letter is represented in y.
 5. ∃x. ∃y. loves(x, y) -- YES -- There exists an x that loves some y. This is true, obviously.
 6. ∃x. ∀y. ¬loves(x, y) -- NO -- There exists an X that doesn't love all ys. This is not true because every letter loves at least one other letter.
-7. ∃x. ¬∀y. loves(x, y) -- NO?-- There exists an x than loves no ys. This is not true because every letter loves at least one other letter.
+7. ∃x. ¬∀y. loves(x, y) -- YES-- There exists an x that doesn't love all the ys. This is true because a letter like a, doesn't love all of the other letter, for example a doesn't love d
 
 b. Consider three models: (i) objects are a, b, c, d; `loves` is Table 1; (ii) objects are integers; `loves(x, y) ` ≝ x ≧ y; (iii) `loves(x, y)` ≝ x = y. In which of these models are these statements true:
 
