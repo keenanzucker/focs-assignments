@@ -3,7 +3,7 @@
 ```
 Student Name: Keenan Zucker
 Check one:
-[ ] I completed this assignment without assistance or external resources.
+[X] I completed this assignment without assistance or external resources.
 [ ] I completed this assignment with assistance from ___
    and/or using these external resources: ___
 ```
@@ -58,15 +58,17 @@ Consider the tables `college` and `town`:
 
 What values does each of the following joins select?
 
- All joins are on the column `town_name` that is present in both tables. (That is, these are **natural joins**.) 
+ All joins are on the column `town_name` that is present in both tables. (That is, these are **natural joins**.)
 
 a. An inner join of `college` and `town`.
+
 | college_name | students | town_name | population | settled_date |
 | ------------ | -------- | --------- | ---------- | ------------ |
 | Babson       | 2840     | Needham   | 28,888     | 1680         |
 | Olin         | 350      | Needham   | 28,888     | 1680         |
 
 b. A left join of `college` and `town`.
+
 | college_name | students | town_name | population | settled_date |
 | ------------ | -------- | --------- | ---------- | ------------ |
 | Babson       | 2840     | Needham   | 28,888     | 1680         |
@@ -74,6 +76,7 @@ b. A left join of `college` and `town`.
 | Wellesley    | 2474     | Wellesley |	na  	   |    na        |
 
 c. A right join of `college` and `town`.
+
 | college_name | students | town_name | population | settled_date |
 | ------------ | -------- | --------- | ---------- | ------------ |
 | Babson       | 2840     | Needham   | 28,888     | 1680         |
@@ -81,6 +84,7 @@ c. A right join of `college` and `town`.
 | na           | na       | Dedham    | 24,729     | 1635         |
 
 d. A full join of `college` and `town`.
+
 | college_name | students | town_name | population | settled_date |
 | ------------ | -------- | --------- | ---------- | ------------ |
 | Babson       | 2840     | Needham   | 28,888     | 1680         |
