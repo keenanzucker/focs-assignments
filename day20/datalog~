@@ -1,0 +1,6 @@
+#lang datalog
+
+likes(amy, susan).
+likes(susan, amy).
+likes(mark, amy).
+unliked(X) :- not likes(Someone, X).

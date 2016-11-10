@@ -18,4 +18,3 @@ number(N) :- s(M, N).
 
 % product axioms
 product(A, B, C) :- number(A), B=0, C=0.
-product(X,SY,W) :- product(X,Y,Z), sum(X,Z,W), s(Y, SY).
