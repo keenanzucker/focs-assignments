@@ -70,10 +70,10 @@ Here's a ~~more complicated~~ alternative paragraph algorithm. This uses an expl
 
 a. Is this algorithm any of: greedy, recursive, dynamic programming (top down), dynamic programming (bottom up)?
 
-Greedy --> Yes, this algorithm could be considered greedy because it is doing a local optimization step to select the best candidate within the for loop.
-Recursive --> No, this function is not recursive as it does not call itself.
-Dynamic (top down) --> No, I don't think this is top down dynamic programming.
-Dynamic (bottom up) --> I think this is bottom up dynamic programming because it is still breaking down the problem into smaller subproblems and solving them sequentially.
+- Greedy --> Yes, this algorithm could be considered greedy because it is doing a local optimization step to select the best candidate within the for loop.
+- Recursive --> No, this function is not recursive as it does not call itself.
+- Dynamic (top down) --> No, I don't think this is top down dynamic programming.
+- Dynamic (bottom up) --> I think this is bottom up dynamic programming because it is still breaking down the problem into smaller subproblems and solving them sequentially.
 
 b. [no question] See [this post by Juraj Sukop](http://xxyxyz.org/line-breaking/) for a more extensive exploration of line breaking algorithms using Python.
 
